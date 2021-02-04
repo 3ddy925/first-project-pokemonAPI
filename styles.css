@@ -115,7 +115,7 @@ body {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  background-image: url(/pokemon-images/pokeball.png);
+  background-image: url(/pokemon-images/pokeball.jpg);
   background-size: cover;
   outline:none;
 }
@@ -190,7 +190,7 @@ body {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  background-image: url(/pokemon-images/pokeball.png);
+  background-image: url(/pokemon-images/pokeball.jpg);
   background-size: cover;
   outline:none;
 }
@@ -265,7 +265,7 @@ body {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  background-image: url(/pokemon-images/pokeball.png);
+  background-image: url(/pokemon-images/pokeball.jpg);
   background-size: cover;
   outline:none;
 }
