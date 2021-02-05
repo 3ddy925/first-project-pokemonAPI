@@ -29,7 +29,6 @@ charmanderButton.addEventListener("click", function(evt) {
            return response.json()
         })
         .then((data) => {
-            console.log(data);
 
             charmanderName.textContent = data.name;
 
@@ -41,7 +40,6 @@ charmanderButton.addEventListener("click", function(evt) {
            return response.json()
         })
         .then((data) => {
-            console.log(data);
 
             charmanderTypeHP.textContent = '50HP' + ' ' + data.name;
 
@@ -53,7 +51,6 @@ charmanderButton.addEventListener("click", function(evt) {
            return response.json()
         })
         .then((data) => {
-            console.log(data);
 
             firstMoveChar.textContent = data.name + ' ' + '10dmg';
 
@@ -65,7 +62,6 @@ charmanderButton.addEventListener("click", function(evt) {
            return response.json()
         })
         .then((data) => {
-            console.log(data);
 
             secondMoveChar.textContent = data.name + ' ' + '30dmg';
 
@@ -82,7 +78,6 @@ squirtleButton.addEventListener("click", function(evt) {
            return response.json()
         })
         .then((data) => {
-            console.log(data);
 
             squirtleName.textContent = data.name;
 
@@ -94,7 +89,6 @@ squirtleButton.addEventListener("click", function(evt) {
            return response.json()
         })
         .then((data) => {
-            console.log(data);
 
             squirtleTypeHP.textContent = '50HP' + ' ' + data.name;
 
@@ -106,7 +100,6 @@ squirtleButton.addEventListener("click", function(evt) {
            return response.json()
         })
         .then((data) => {
-            console.log(data);
 
             firstMoveSquirtle.textContent = data.name + ' ' + '20dmg';
 
@@ -118,7 +111,6 @@ squirtleButton.addEventListener("click", function(evt) {
            return response.json()
         })
         .then((data) => {
-            console.log(data);
 
             secondMoveSquirtle.textContent = data.name + ' ' + '10dmg';
 
@@ -136,7 +128,6 @@ bulbasaurButton.addEventListener("click", function(evt) {
            return response.json()
         })
         .then((data) => {
-            console.log(data);
 
             bulbasaurName.textContent = data.name;
 
@@ -148,7 +139,6 @@ bulbasaurButton.addEventListener("click", function(evt) {
            return response.json()
         })
         .then((data) => {
-            console.log(data);
 
             bulbasaurTypeHP.textContent = '50HP' + ' ' + data.name;
 
@@ -160,7 +150,6 @@ bulbasaurButton.addEventListener("click", function(evt) {
            return response.json()
         })
         .then((data) => {
-            console.log(data);
 
             firstMoveBulbasaur.textContent = data.name + ' ' + '10dmg';
 
@@ -172,7 +161,6 @@ bulbasaurButton.addEventListener("click", function(evt) {
            return response.json()
         })
         .then((data) => {
-            console.log(data);
 
             secondMoveBulbasaur.textContent = data.name + ' ' + '30dmg';
 
@@ -188,7 +176,6 @@ charmanderButton.addEventListener("click", function(evt) {
            return response.json()
         })
         .then((data) => {
-            console.log(data);
 
             charmanderName.textContent = data.name;
 
@@ -200,7 +187,6 @@ charmanderButton.addEventListener("click", function(evt) {
            return response.json()
         })
         .then((data) => {
-            console.log(data);
 
             charmanderTypeHP.textContent = '50HP' + ' ' + data.name;
 
@@ -212,7 +198,6 @@ charmanderButton.addEventListener("click", function(evt) {
            return response.json()
         })
         .then((data) => {
-            console.log(data);
 
             firstMoveChar.textContent = data.name + ' ' + '10dmg';
 
@@ -224,7 +209,6 @@ charmanderButton.addEventListener("click", function(evt) {
            return response.json()
         })
         .then((data) => {
-            console.log(data);
 
             secondMoveChar.textContent = data.name + ' ' + '30dmg';
 
